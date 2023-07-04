@@ -27,6 +27,6 @@ cv.imshow("and",bitwise1)
 
 mask = cv.inRange(img,lower_yellow,upper_yellow)
 result = cv.bitwise_and(img,img,mask=mask)
-cv.imshow('result',result)
+cv.imshow('result',mask)
 cv.waitKey(0)
 cv.destroyAllWindows()
