@@ -13,4 +13,4 @@ for (x,y,w,h) in face_detect:
 cv.rectangle(img,(x,y),(x+w,y+h),(0,255,0),thickness=10)
 cv.imshow("facedetect",img)
 cv.waitKey(0)
-cv.destroyAllWindows()
+cv.destroyAllWindows
